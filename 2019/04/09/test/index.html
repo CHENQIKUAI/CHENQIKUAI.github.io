@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="theme-color" content="#33474d">
-	<title>Hexo</title>
+	<title>test | Hexo</title>
 	<link rel="stylesheet" href="/css/style.css">
 	
       <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -29,46 +29,33 @@
 	</header>
 
 	<main>
-		<h1>Archive</h1>
-
-
-
-
-
-<ul class="archive">
+		<article>
 	
+		<h1>test</h1>
 	
-		<li class="archive__year archive__expendable ">
-			<span>2019</span>
-			<ul>
-				
-					<li class="archive__month archive__expendable">
-						<span>April</span>
-						<ul>
-							
-								<li class="archive__entry"><a href="/2019/04/09/test/">test</a></li>
-							
-								<li class="archive__entry"><a href="/2019/04/08/会做饭的孩子走到哪里都能活下去/">会做饭的孩子走到哪里都能活下去</a></li>
-							
-						</ul>
-					</li>
-
-				
-			</ul>
-		</li>
+	<div class="article__infos">
+		<span class="article__date">2019-04-09</span><br>
 		
-	
-</ul>
+		
+			<span class="article__tags">
+			  	<a class="article__tag-link" href="/tags/test/">test</a>
+			</span>
+		
+	</div>
 
-<script>
-	const expandables = document.querySelectorAll('.archive__expendable')
-	for(let i = 0; i < expandables.length; i++) {
-		expandables[i].addEventListener('click', (e) => {
-			e.stopPropagation()
-			expandables[i].classList.toggle('archive__expendable_collapsed')
-		})
-	}
-</script>
+	
+
+	
+		<p>这里是测试</p>
+
+	
+
+	
+		<span class="different-posts"><a href="/2019/04/09/test/" onclick="window.history.go(-1); return false;">⬅️ Go back </a></span>
+
+	
+
+</article>
 
 	</main>
 
